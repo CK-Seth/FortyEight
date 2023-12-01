@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(louis-vuitton-neon-color-mw2v6gcd22hty402.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.padding {
+    padding: 5px 10px 0 10px;
+}
+.screen {
+    height: 100px;
+    background: #6839a7;
+}
+.screen input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    text-align: right;
+}
+#history {
+    font-size: 1.1rem;
+    padding: 0 10px;
+    letter-spacing: 5px;
+}
+#main {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 600;
+    padding: 0 10px;
+}
+.history-screen {
+    height: 30%;
+    background-color: #6839a7;
+}
+
+.main-screen {
+    height: 70%;
+    background-color: #6839a7;
+}
+.top {
+    display: flex;
+    background-color: #6839a7;
+    justify-content: space-between;
+    align-items: stretch;
+    line-height: 2rem;
+}
+.branding {
+    flex-grow: 1;
+    cursor: default;
+    font-size: 0.8rem;
+    padding-left: 15px;
+}
+.window {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.window > div {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#calculator {
+    width: 300px;
+    border: 3px solid #000000;
+    box-shadow: 0 0 15px 2px rgb(163, 0, 109);
+    background: #f2f2f2;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6839a7;
+}
+.button {
+    width: 25%;
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button.close:hover {
+    background: #f00;
+}
+.sub-menu .button {
+    line-height: 3rem;
+}
+.main-menu {
+    background: #e6e6e6;
+}
+.number {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.number:active {
+    font-size: 1.4rem;
+}
+.button:hover, .button-top:hover {
+    background: #cfcfcf;
+    cursor: pointer;
+}
+.button:active {
+    background: #b8b8b8;
+}
+.equals:hover {
+    background: #1883d7;
+}
+.equals:active {
+    background: rgb(67, 152, 207);
+    background: rgba(67, 152, 207, 0.79);
+}
+.top .icon {
+    width: 16px;
+    height: 16px;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.type {
+    display: flex;
+    background-color: #6839a7;
+}
+.column {
+    display: flex;
+    align-items: center;
+}
+.history {
+    flex-grow: 6;
+    justify-content: flex-end;
+}
+.button-top {
+    display: flex;
+    padding: 10px 15px;
+    pointer-events: none;
+}
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.image:active img {
+    width: 24px;
+    height: 24px;
+}
+.sign:active {
+    font-size: 0.9rem;
+}
+.dot {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.dot:active {
+    font-size: 1.4rem;
+}
+.calculator-menu:hover {
+    background: #cfcfcf;
+    cursor: pointer;
+}
+.calculator-chosen {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: default;
+    padding: 10px 12px;
+    font-weight: 900;
+}
+.bottom .memory{
+    display: flex;
+    font-size: 0.75rem;
+    background-color: #6839a7;
+    color: #000000;
+}
+.memory > div:hover {
+    color: #000;
+    background: #cfcfcf;
+    cursor: pointer;
+}
+.memory > div {
+    flex-grow: 1;
+    text-align: center;
+    line-height: 2rem;
+    pointer-events:none;
+}
+#plus-minus {
+    pointer-events: none;
+}
