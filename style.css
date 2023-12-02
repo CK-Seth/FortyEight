@@ -99,6 +99,9 @@ body {
     background-color: #00f0f8;
 }
 .button {
+    background-color: #00b1b8;
+    box-shadow: 2px 2px 9px rgb(255, 47, 255);
+    border-radius: 5px;
     width: 25%;
     line-height: 3.5rem;
     display: flex;
